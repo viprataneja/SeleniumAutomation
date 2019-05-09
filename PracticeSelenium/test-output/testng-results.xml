@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-09T02:48:38Z" name="Default suite" finished-at="2019-05-09T02:48:53Z" duration-ms="14406">
+    <groups>
+    </groups>
+    <test started-at="2019-05-09T02:48:38Z" name="Default test" finished-at="2019-05-09T02:48:53Z" duration-ms="14406">
+      <class name="SeleniumWithJava.Tests.OrangeHRMTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:38Z" name="Setup" finished-at="2019-05-09T02:48:43Z" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Login()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:43Z" name="Login" finished-at="2019-05-09T02:48:44Z" duration-ms="1350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:44Z" name="Cleanup" finished-at="2019-05-09T02:48:45Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:45Z" name="Setup" finished-at="2019-05-09T02:48:49Z" duration-ms="4066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="PIM_AddEmployee()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:49Z" name="PIM_AddEmployee" finished-at="2019-05-09T02:48:52Z" depends-on-methods="SeleniumWithJava.Tests.OrangeHRMTest.Login" duration-ms="3038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIM_AddEmployee -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:SeleniumWithJava.Tests.OrangeHRMTest@2aece37d]" started-at="2019-05-09T02:48:52Z" name="Cleanup" finished-at="2019-05-09T02:48:53Z" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- SeleniumWithJava.Tests.OrangeHRMTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
